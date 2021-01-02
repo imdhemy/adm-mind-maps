@@ -1,0 +1,115 @@
+# Color scheme
+- Blue: [#4285F4]
+- Red: [#EA4335]
+- Orange: [#FBBC05]
+- Green: [#34A853]
+
+@startmindmap
+* CH.1 Introuction to Algorithm Design
+    ** What is an algorithm
+        *** Algorithm Definition
+        ***[#FBBC05] Algorithmic Problem
+            ****[#FBBC05] Set of Instances
+            ****[#FBBC05] Set of Outputs
+        *** Good Algorithm
+            ****[#EA4335] Correct
+            **** Efficient
+            **** Easy to implement
+    ** Examples
+        ***[#4285F4] Robot Tour Optimization (TSP)
+            ****_ <b>Nearest-neighbor heuristic</b>
+            ****_ <b>Closest-pair heuristic</b>
+            ****_ <b>Permutations and ordering</b>
+        ***[#4285F4] Selecting The Right Jobs
+    **[#EA4335] Reasoning About Correctness
+        ***[#EA4335] Expressing Algorithms
+            ****[#EA4335] English
+            ****[#EA4335] Pseudocode
+            ****[#EA4335] Real Programming Language
+        ***[#EA4335] Problems And Properties
+            ****[#FBBC05] Instances
+            ****[#FBBC05] Outputs
+                ***** Traps
+                    ****** ill-defined question
+                    ****** compound goals
+        ***[#EA4335] Demonstrating Incorrectness
+            ****[#FBBC05] Counter-example instance
+                ***** What
+                    ****** Verifiability
+                        *******_ 1. Calculate the algorithm answer
+                        *******_ 2. Display a better answer
+                    ****** Simplicity
+                ***** How
+                    ******_ 1.Think Small
+                    ******_ 2. Think Exhaustively
+                    ******_ 3. Hunt for weakness
+                    ******_ 4. Go for a tie
+                    ******_ 5. Seek Extremes
+        ***[#EA4335] Induction and Recursion
+           **** Induction
+               ***** <b>Prove</b> for basis case <i>(n = 1)</i>
+               ***** <b>Assume</b> it's true for <i>(n = k)</i>
+               ***** <b>Prove</b> it's true for <i>(n = k+1)</i>
+           **** Recursion
+               ***** Test for <i>basis case</i>
+                ****** Call <i>subprogram</i>
+                ****** Termination
+        ***[#EA4335] Summations
+            **** Summation Formulae
+            **** Arithmetic Progression
+                *****_ S(n) = n(n+1)/2
+            **** Geometric Series
+                *****_ G(n,a) = a(a^(n+1) -1)/(a-1)
+    ** Modeling the Problem
+        *** Combinatorial Objects
+            **** Permutations
+                *****_ arrangement
+                *****_ tour
+                *****_ ordering
+                *****_ sequence
+            **** Subsets
+                *****_ cluster
+                *****_ collection
+                *****_ committee
+                *****_ group
+                *****_ packaging
+                *****_ selecting
+            **** Trees
+                *****_ hierarchy
+                *****_ dominance relationship
+                *****_ ancestor/descendant relationship
+                *****_ taxonomy
+            **** Graphs
+                *****_ network
+                *****_ circuit
+                *****_ web
+                *****_ relationship
+            **** Points
+                *****_ Sites
+                *****_ Positions
+                *****_ Data records
+                *****_ Locations
+            **** Polygons
+                *****_ Shapes
+                *****_ Region
+                *****_ configurations
+                *****_ Boundaries
+            **** Strings
+                 *****_ Text
+                 *****_ Characters
+                 *****_ Patterns
+                 *****_ Labels
+        *** Recursive Objects
+            **** All of mentioned abstracts are recursive
+                *****_ Permutations
+                *****_ Subsets
+                *****_ Trees
+                *****_ Graphs
+                *****_ Points
+                *****_ Polygons
+                *****_ Strings
+            **** Requirements
+                *****_ decomposition rules
+                *****_ basis case
+    ** <s>About the War Stories</s>
+@endmindmap
