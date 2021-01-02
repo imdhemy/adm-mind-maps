@@ -100,16 +100,7 @@
                  *****_ Patterns
                  *****_ Labels
         *** Recursive Objects
-            **** All of mentioned abstracts are recursive
-                *****_ Permutations
-                *****_ Subsets
-                *****_ Trees
-                *****_ Graphs
-                *****_ Points
-                *****_ Polygons
-                *****_ Strings
-            **** Requirements
-                *****_ decomposition rules
-                *****_ basis case
+            ****_ All Mentioned abstracts are recursive
+            ****_ Requirements (<b>basis case</b> & <b>decomposition rules</b>)
     ** <s>About the War Stories</s>
 @endmindmap
